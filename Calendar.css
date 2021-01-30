@@ -1,0 +1,54 @@
+
+
+.calendar{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    max-width: 1024px;
+    width: 100%;
+    background-color: rgba(110, 231, 183,0.5);
+  }
+
+
+  .calendar-labels {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    max-width: 1024px;
+    width: 100%;
+    background-color: rgba(110, 231, 183,0.5); 
+
+  }
+
+  .calendar-labels > * {
+      text-align: center;
+      background-color: aquamarine;
+  }
+  .calendar > *{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .calendar > *::before{
+    content: "";
+    display: inline-block;
+    height: 0;
+    padding-bottom: 100%;
+    width: 1px;
+  }
+
+p {
+    color:black;
+}
+
+
+.today{
+    border: 2px solid green;
+    background-color: yellow;
+    font-weight: bold;
+    border-radius: 100%;
+  }
+
+
+  .days {
+
+    color: white;
+  }
