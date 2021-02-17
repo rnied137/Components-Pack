@@ -1,0 +1,13 @@
+
+
+.form-control {
+    padding: 2rem;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+.form-row > label {
+    margin-right: 4%;
+}
