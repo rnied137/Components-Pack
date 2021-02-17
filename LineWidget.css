@@ -1,0 +1,18 @@
+.year-marker {
+    color: rgba(91, 94, 91, 0.5);
+    font-weight: 400;
+}
+
+
+.story-year-text {
+
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.line {
+    margin-top: 5px;
+    border-bottom: 3px solid black;
+
+}

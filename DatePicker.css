@@ -1,0 +1,111 @@
+.datepicker {
+  position: relative;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+}
+
+.calendar {
+  position: absolute;
+  z-index: 9999;
+  transform: translateY(-100%);
+  width: 450px;
+  height: 300px;
+box-shadow: 0 0 3em rgba(0,0,0,.15);
+border: 4px solid rgb(44, 69, 116);
+padding: 1em;
+  background-color: rgb(212,221,239);;
+  font-weight: 700;
+  border-radius: 5%;
+  font-size: larger;
+}
+
+.calendar-inner {
+}
+
+.calendar-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 6%;
+}
+
+.calendar-month {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.calendar-year {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.calendar span {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.i .fa .fa-chevron-left {
+    margin-right:5px;
+}
+
+.i .fa .fa-chevron-righ {
+    margin-left:5px;
+}
+
+
+.calendar-days {
+  display: grid;
+  list-style-type: none;
+  grid-template-columns: repeat(7, 1fr);
+
+}
+
+
+.calendar-label {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+text-align: center;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    border: 1px solid black;
+}
+
+.calendar-label > li {
+    list-style-type: none;
+    background-color: rgb(44, 69, 116);
+    color: #fff;
+ 
+}
+
+
+.calendar-content {}
+
+
+.day {
+  background-color: rgb(255,255,255);
+  text-align: center;
+  border: 1px solid black;
+}
+
+.day:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  font-weight: 900;
+
+}
+.day-empty {
+  background-color: rgb(212,221,239);
+  border: 1px solid black;
+}
+
+.choosen-date {
+  text-align: right;
+  margin-right: 5%;
+}
+

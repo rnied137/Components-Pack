@@ -1,0 +1,38 @@
+.community-icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  flex-wrap: wrap;
+}
+
+.community-icons > i > span {
+  margin-right: 60px;
+}
+
+.community-icons > div > i.fa {
+    margin:auto;
+  }
+
+.community-icons > * {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.community-icons > div > span {
+    margin-left: 5px;
+}
+
+@media (max-width: 700px) {
+    .community-icons{
+        /* margin-top: 2rem; */
+        /* display: block;  */
+        align-self: baseline;
+        margin-top: 20px;
+    }
+
+}
+
+

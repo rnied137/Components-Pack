@@ -1,0 +1,31 @@
+
+
+.linethrough {
+    
+
+    position: relative;
+    display: inline-block;
+    font-size: 6rem;
+    margin-bottom: 3rem;
+
+
+}
+
+    .linethrough::before {
+    content: '';
+    border-bottom: 4px solid black;
+    width: var(--leftPercentage);
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+.linethrough::after {
+    content: '';
+    border-bottom: 4px solid black;
+    width: var(--rightPercentage);
+    position: absolute;
+    left: 0;
+    top: 50%;
+
+}

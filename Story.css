@@ -1,0 +1,67 @@
+.story {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+.left-story {
+    margin-top: 1rem;
+    width: 40%;
+    position: relative;
+    
+}
+
+.right-story {
+    margin-left: 2%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.story-link {
+    padding: 1rem 2rem;
+    border: 1px solid black; 
+    max-width: 150px;
+    text-align: center;
+    background: rgb(238,174,202);
+    color: white;
+    font-weight:900;
+    text-decoration: none;
+    background:  black;
+    margin-top: 2rem;
+}
+
+
+@media(max-width:550px){
+
+    .story {
+        flex-direction: column;
+        margin-top: 1rem;
+        display: flex;
+
+    }
+    .left-story {
+        margin-top: 0;
+        width: 100%;
+        position: relative;
+        
+    }
+ 
+    .right-story {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+    }
+
+}
