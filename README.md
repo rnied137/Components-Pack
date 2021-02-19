@@ -9,4 +9,4 @@ Autocomplet - input with autocomplete functionality
 
 DatePicker - input to choosing month/year and day (vanilla js)
 
-Multi-Step form - implementation of multi step (form remain it's state between switcing steps)
+Multi-Step form - implementation of multi step (form remains it's state between even when switching current step (lifting state))
