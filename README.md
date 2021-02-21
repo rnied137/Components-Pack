@@ -8,6 +8,8 @@ ColorPalette - palette to change website color
 Autocomplete input - input with autocomplete functionality, just pass array of autocomplete items to it and use as normal input
 
 DatePicker - input to choosing month/year and day (vanilla js)
+</br>
+<img src="https://i.imgur.com/8wMshW2.gif"/>
 
 Multi-Step form - implementation of multi step (form remains it's state between even when switching current step (lifting state))
 
