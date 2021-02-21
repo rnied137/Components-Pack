@@ -12,9 +12,10 @@ DatePicker - input to choosing month/year and day (vanilla js)
 Multi-Step form - implementation of multi step (form remains it's state between even when switching current step (lifting state))
 
 Card - with color and image src props. Creates nice looking cards. Data is fake only used for showcase.
-</br>
+
 
 CreditCard - Preview/Generator 
+</br>
  <img src="https://i.imgur.com/CnjzLQ3.gif"/>
 
 
