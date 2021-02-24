@@ -24,6 +24,9 @@ CreditCard - Preview/Generator (Card info is fake, only used for showcase)
 Rev2 
 <img src="https://i.imgur.com/RkXVwD4.gif" />
 </br>
+
+Old version
+</br>
  <img src="https://i.imgur.com/CnjzLQ3.gif"/>
 
 
