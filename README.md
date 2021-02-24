@@ -21,6 +21,9 @@ Card - with color and image src props. Creates nice looking cards. Data is fake 
 
 CreditCard - Preview/Generator (Card info is fake, only used for showcase)
 </br>
+Rev2 
+<img src="https://i.imgur.com/RkXVwD4.gif" />
+</br>
  <img src="https://i.imgur.com/CnjzLQ3.gif"/>
 
 
