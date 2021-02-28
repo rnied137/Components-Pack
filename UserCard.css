@@ -1,0 +1,106 @@
+.border-radius {
+  border-radius: 50%;
+}
+
+.user-card {
+  box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.user-card-name {
+  margin-top: 5rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.user-button-link {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  height: 65px;
+  width: 100%;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  font-weight: 900;
+}
+
+.user-card-profile {
+  text-align: center;
+}
+
+.user-card-image {
+  position: relative;
+  top: 50px;
+}
+
+.user-card-container {
+  width: 350px;
+}
+
+.user-card-accent {
+  font-size: 2.5rem;
+}
+
+.user-card-email {
+  margin-top: 0.5rem;
+  margin-bottom: 2.5rem;
+  color: gray;
+}
+
+.user-card-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.user-card-row > div {
+  text-align: center;
+  width: 100%;
+}
+
+.user-card-row div:not(:first-child) {
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.user-card {
+  background-color: #fff;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.user-card-parents {
+  margin: 1.5rem 0 1.5rem 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.user-card-parents div img:nth-child(2) {
+  margin-left: 1rem;
+}
+
+.user-card span {
+  display: block;
+}
+
+.user-card-container:hover {
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+}
+
+.user-card-container:hover .user-button-link {
+  background-color: aqua;
+}
+
+.user-card-smaller {
+  font-size: 1rem;
+  color: gray;
+}
