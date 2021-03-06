@@ -30,3 +30,6 @@ Old version
  <img src="https://i.imgur.com/CnjzLQ3.gif"/>
 
 
+PieChart
+</br>
+<img src="https://i.imgur.com/saH8Wfr.gif"/>
