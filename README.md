@@ -30,6 +30,11 @@ Old version
  <img src="https://i.imgur.com/CnjzLQ3.gif"/>
 
 
+Circle Chart Widget
+</br>
+ <img src="https://i.imgur.com/t67d6sI.gif"/>
+
+
 PieChart
 </br>
 <img src="https://i.imgur.com/saH8Wfr.gif"/>
