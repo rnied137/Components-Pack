@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from "react";
+import React, { useState, useEffect } from "react";
 
 import { CircleWidget } from "./CircleWidget";
 
@@ -16,13 +16,7 @@ export const TopAgents = ({
   const [titles] = useState(["11", "55", "79", "90"]);
 
   const computeElementsValues = (sum) => {
-    const percentValues = [];
-    numbers.forEach((value) => {
-      const percentValue = (value * 100) / sum;
-      percentValues.push(Math.floor(percentValue));
-    });
-
-    setPercents(percentValues);
+    
   };
 
   const setSelectedValues = () => {
@@ -38,12 +32,18 @@ export const TopAgents = ({
     const sumOfNumbers = numbers.reduce((acc, curr) => {
       return acc + curr;
     }, 0);
-    computeElementsValues(sumOfNumbers);
+    const percentValues = [];
+    numbers.forEach((value) => {
+      const percentValue = (value * 100) / sumOfNumbers;
+      percentValues.push(Math.floor(percentValue));
+    });
+
+    setPercents(percentValues);
 
     return () => console.log("celanup");
-  }, [numbers, computeElementsValues]);
+  }, [numbers]);
 
-  const changeState = (index) => {
+  const changeState = (index,e) => {
     let states = [...selected];
 
     if (states[index] === true) return;
@@ -55,7 +55,9 @@ export const TopAgents = ({
       }
     }
     setSelected([...states]);
+
   };
+
   return (
     <>
       <h2 className="top-agents-title">Top Agents / Offices</h2>
@@ -67,8 +69,10 @@ export const TopAgents = ({
               height={`${chartSizeHeight}px`}
               propColor={chartColor}
               fillValue={numbers[index]}
-              key="0"
+              key={index+index}
               title={titles[index]}
+              animation={index}
+              className={"path-fill"}
             />
           ) : null;
         })}
@@ -81,9 +85,9 @@ export const TopAgents = ({
                 isRadioButton
                 propColor={chartColor}
                 isSelected={selected[index]}
-                onClick={() => changeState(index)}
+                onClick={(e) => changeState(index,e)}
                 fillValue="100"
-                key="0"
+                key={index}
               />
               <span className="top-agents-option-title">Andrew Haw</span>
               <span className="top-agents-bold-text">{titles[index]}k</span>

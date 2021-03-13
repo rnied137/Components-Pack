@@ -1,0 +1,13 @@
+
+
+
+.path-fill {
+    animation: fill-animn 1.5s ease-in-out;
+    animation-fill-mode:both; 
+}
+ 
+
+@keyframes fill-animn {
+    0% { stroke-dasharray: 0, 100; }
+    100% { stroke-dasharray: var(--fillValue), 100; }
+    }
