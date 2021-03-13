@@ -30,7 +30,7 @@ Old version
  <img src="https://i.imgur.com/CnjzLQ3.gif"/>
 
 
-Circle Chart Widget
+Circle Chart Widget / props: color /fill level etc.
 </br>
  <img src="https://i.imgur.com/t67d6sI.gif"/>
 
