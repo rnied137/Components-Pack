@@ -78,6 +78,10 @@ export const CalendarV2 = () => {
       m_prevMonthDays = 6;
     }
     m_nextMonthDays = m_remainingDays - m_prevMonthDays;
+    console.log("Previous month days - " + m_prevMonthDays);
+    console.log("Remainigng days - " + m_remainingDays);
+    console.log("Next month days - " + m_nextMonthDays);
+
     let arr = [];
     if (m_prevMonthDays > 0) {
       //calc prev month
@@ -85,6 +89,7 @@ export const CalendarV2 = () => {
       let previousMonth = monthNames.indexOf(month);
       if (previousMonth - 1 === -1) {
         let daysInMonth = new Date(year - 1, previousMonth + 1, 0).getDate();
+        console.log(" >0 All days in prev month - " + daysInMonth);
         let allDaysInPrevMonth = Array.from(Array(daysInMonth).keys()).map(
           (i, index) => i + 1
         );
@@ -97,7 +102,8 @@ export const CalendarV2 = () => {
 
         arr = allDaysInPrevMonth;
       } else {
-        let daysInMonth = new Date(year, previousMonth + 1, 0).getDate();
+        let daysInMonth = new Date(year, previousMonth, 0).getDate();
+        console.log(" else All days in prev month - " + daysInMonth);
         console.log(daysInMonth); //liczba dni w grudniu
         let allDaysInPrevMonth = Array.from(Array(daysInMonth).keys()).map(
           (i, index) => i + 1
@@ -107,34 +113,36 @@ export const CalendarV2 = () => {
           Math.max(allDaysInPrevMonth.length - m_prevMonthDays, 0)
         );
         arr = allDaysInPrevMonth;
+        console.log("Wszedlem tu");
       }
 
       //arr = Array.from(Array(m_prevMonthDays).keys()).map((i, index) => i + 1);
 
       setPreviousMonthDays(arr);
+    } else {
+      setPreviousMonthDays([]);
     }
     if (m_nextMonthDays > 0) {
       arr = Array.from(Array(m_nextMonthDays).keys()).map((i, index) => i + 1);
-
+      console.log("Kolejny miesiac to " + m_nextMonthDays + " dni");
       setNextMonthDays(arr);
     } else setNextMonthDays([]);
   };
 
   useEffect(() => {
-    console.log("months set " + month);
-    console.log("Current day" + String(currentDate.getDate()).padStart(2, "0"));
-    console.log("Current month" + currentDate.getMonth());
-    console.log("Current year" + currentDate.getFullYear());
+    //console.log("months set " + month);
+    //console.log("Current day" + String(currentDate.getDate()).padStart(2, "0"));
+    //console.log("Current month" + currentDate.getMonth());
+    //console.log("Current year" + currentDate.getFullYear());
 
     const daysInMonth = new Date(
       year,
       monthNames.indexOf(month) + 1,
       0
     ).getDate();
-    console.log(daysInMonth + " dni w miesiacu" + month);
+    console.log(daysInMonth + " dni w miesiacu - " + month);
     const firstDay = new Date(year, monthNames.indexOf(month), 1).getDay();
-    console.log(firstDay);
-    let daysToCompute = 35 - daysInMonth;
+    console.log("First day is " + firstDay);
     const daysArray = Array.from(Array(daysInMonth).keys()).map(
       (i, index) => i + 1
     );
