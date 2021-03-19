@@ -45,3 +45,9 @@ Circle Chart Widget / props: color /fill level etc.
 PieChart
 </br>
 <img src="https://i.imgur.com/saH8Wfr.gif"/>
+
+
+
+SkillProgression/Task completion widget
+</br>
+<img src="https://i.imgur.com/MHDtueK.gif" />
