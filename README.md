@@ -7,7 +7,7 @@ Calendar - React implementation of https://leemartin.medium.com/ calendar - mome
 CalendarV2 - my own implementation with vanilla js (in react) and previous/next days grayed out. My own algorithm.
 
 </br>
-<img src="https://imgur.com/TlMiYA9" />
+<img src="https://i.imgur.com/TlMiYA9.png" />
 
 
 ColorPalette - palette to change website color
