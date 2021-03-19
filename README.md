@@ -3,6 +3,13 @@ Components made by me@ Szelma139
 
 Calendar - React implementation of https://leemartin.medium.com/ calendar - moment.js
 
+
+CalendarV2 - my own implementation with vanilla js (in react) and previous/next days grayed out. My own algorithm.
+
+</br>
+<img src="https://imgur.com/a/JIbVSXl" />
+
+
 ColorPalette - palette to change website color
 
 Autocomplete input - input with autocomplete functionality, just pass array of autocomplete items to it and use as normal input
