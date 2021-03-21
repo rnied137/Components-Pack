@@ -1,0 +1,14 @@
+import React from 'react'
+
+export const CategoryTag = ({
+    color = "0,255,255",
+    children="TextTag",
+    inline=false
+}) => {
+    const bColor=color+",0.1"
+    return (
+        <div style={{backgroundColor:`rgba(${bColor})`,padding:"5px",borderRadius:"5px", textAlign:"center",display: inline ? "inline-block": "block"}}>
+         <span style={{display:"inline-block",color:`rgb(${color})`,fontWeight:"500",textAlign:"center"}}>{children}</span>   
+        </div>
+    )
+}
