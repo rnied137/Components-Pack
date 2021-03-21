@@ -32,6 +32,8 @@ Rev2
 <img src="https://i.imgur.com/RkXVwD4.gif" />
 </br>
 
+
+           
 Old version
 </br>
  <img src="https://i.imgur.com/CnjzLQ3.gif"/>
@@ -51,3 +53,34 @@ PieChart
 SkillProgression/Task completion widget
 </br>
 <img src="https://i.imgur.com/MHDtueK.gif" />
+
+```
+<SkillProgression
+          color="green"
+          percentValue="11"
+          month="March"
+          dayDate="2"
+          skillName="Practice"
+        />
+```
+
+
+
+
+
+Category Tag with opacity of background 0.5 of color passed to it.
+</br>
+<img src="https://i.imgur.com/l8MCUe0.png" />
+```
+ <Card width="150px">
+      <CategoryTag />
+        <CategoryTag color="245,34,54">Cooperative</CategoryTag>
+        <CategoryTag color="235,235,0">Ewelina</CategoryTag>
+        <CategoryTag color="165,235,0"/>       
+        <CategoryTag color="15,95,255"/>       
+         <CategoryTag color="155,55,150"/>    
+         <CategoryTag color="78,79,80"/>    
+         <CategoryTag color="20,199,180"/>  
+
+           </Card>
+```
