@@ -90,6 +90,7 @@ Switch
 
 </br>
 <img src="https://i.imgur.com/0QSCnTa.gif" />
+
 ```
 <Switch/>
       <Switch primaryBackground="DAA052" secondaryBackground="#321EFD" primaryDotColour="#7DC26E" secondaryDotColour="FA8A43"/>
