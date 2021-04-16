@@ -84,3 +84,19 @@ Category Tag with opacity of background 0.5 of color passed to it.
 
            </Card>
 ```
+
+
+Switch
+
+</br>
+<img src="https://i.imgur.com/0QSCnTa.gif" />
+```
+<Switch/>
+      <Switch primaryBackground="DAA052" secondaryBackground="#321EFD" primaryDotColour="#7DC26E" secondaryDotColour="FA8A43"/>
+      <Switch primaryBackground="#9B002F" secondaryBackground="#FFD786" primaryDotColour="#FF6F91" secondaryDotColour="#F5AD49"/>
+      <Switch primaryBackground="#00BAFF" secondaryBackground="#5E8255" primaryDotColour="#DEF8D6" secondaryDotColour="#035506"/>
+      <Switch primaryBackground="#862700" secondaryBackground="#F9F871" primaryDotColour="#D22FF5" secondaryDotColour="cyan"/>
+      <Switch primaryBackground="#D0FA11" secondaryBackground="#321EFD" primaryDotColour="#D22FF5" secondaryDotColour="##90F50A"/>
+      <Switch primaryBackground="#FF6F91" secondaryBackground="#FD1EB4" primaryDotColour="#FFD786" secondaryDotColour="#9156F5"/>
+      <Switch primaryBackground="#1EF3FA" secondaryBackground="#DAA052" primaryDotColour="black" secondaryDotColour="#845EC2" />
+```
