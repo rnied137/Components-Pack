@@ -1,0 +1,22 @@
+export const BundledCheatsheet {
+
+
+return ():
+
+const [shouldShow, setShouldShow] = useState(false);
+
+
+return (
+<>
+<button onClick={() => setShouldShow(true)> Show Modal </button>
+{shouldShow && (
+<ModalBackground>
+<ModalBody onClick=(e => e.stopPropagation()}>
+<button onClick={() => setShouldShow(false)}>Hide Modal</button>
+{children}
+</ModalBody>
+</ModalBackground>
+</>
+)
+
+}
