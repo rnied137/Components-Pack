@@ -101,3 +101,10 @@ Switch
       <Switch primaryBackground="#FF6F91" secondaryBackground="#FD1EB4" primaryDotColour="#FFD786" secondaryDotColour="#9156F5"/>
       <Switch primaryBackground="#1EF3FA" secondaryBackground="#DAA052" primaryDotColour="black" secondaryDotColour="#845EC2" />
 ```
+
+
+</br>
+This one inspired by figma @nightborn, I copied his design and put it inside react component. Might be easly transformed to interactive version, will do it someday. Not now.
+<img src="https://imgur.com/a/fWTBJqE" />
+
+
