@@ -43,3 +43,27 @@ export const Delivery = ({delivery}) => {
       </div>
     )
 }
+
+---
+
+import React, { useState } from 'react'
+
+import  './Delivery.css';
+
+
+export const AnimatedWrapper = ({style, className, children}) => {
+    const [animate, setAnimate ] = useState(false);
+
+    const handleAnimate = (state) => {
+            setAnimate(state);
+    }
+    return (
+        <div className={ animate ?  `animated-image animate animate-grow` : `animated-image`} 
+        onMouseEnter={ () => handleAnimate(true)}
+        onMouseLeave={ () => handleAnimate(false)}
+        >
+            {children}
+     </div>
+    )
+}
+
