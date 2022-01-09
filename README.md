@@ -105,6 +105,6 @@ Switch
 
 </br>
 This one inspired by figma @nightborn, I copied his design and put it inside react component. Might be easly transformed to interactive version, will do it someday. Not now.
-<img src="https://imgur.com/a/fWTBJqE" />
+<img src="https://i.imgur.com/j1UCRbU.png" />
 
 
